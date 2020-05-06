@@ -1,9 +1,26 @@
 #Mfoto{
     border-radius: 50%;
-    background-color: rgb(11, 184, 252);
+    border-style: solid;
+    border-color: skyblue;
 }
 body{
+    background-color: rgb(0, 0, 0);
     
-    
-    
+}
+.simple-text{
+    color: skyblue;
+
+}
+.Mhabilidades{
+
+}
+.Mblog{
+
+}
+#mainT{
+    color: skyblue;
+}
+h4{
+    color: skyblue;
+    font-size: 25px;
 }
