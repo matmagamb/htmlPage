@@ -1,28 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Share&display=swap');
-#Mfoto{
-    border-radius: 50%;
-    border-style: solid;
-    border-color: skyblue;
-}
+/*tags*/
 body{
     background-color: rgb(0, 0, 0);
     
-}
-.simple-text{
-    color: skyblue;
-
-}
-.Mhabilidades{
-
-}
-.Mblog{
-
-}
-#mainT{
-    color: skyblue;
 }
 h4{
     font-family: 'Share', cursive;
     color: rgb(255, 0, 191);
     font-size: 50px;
+    margin-left: 100px;
 }
+
+/*IDs*/
+#all{
+    width: 1000;
+    margin: auto;
+    border-style: solid;
+    border-color: aqua;
+}
+#Mfoto{
+    border-radius: 50%;
+    border-style: ridge;
+    border-color: skyblue;
+    border: 10x;
+    margin-left:  250px;
+    
+}
+#mainT{
+    color: skyblue;
+    margin-left:  190px;
+}
+#intro{
+    border: rgb(255, 0, 191);
+    border-style: ridge;
+}
+#topo{
+
+}
+#all{
+    width: 800px;
+    margin: auto;
+}
+#description{
+    border: rgb(255, 0, 191);
+    border-style: ridge;
+
+}
+#habilities{
+    border: rgb(255, 0, 191);
+    border-style: ridge;
+
+}
+#blogS{
+    border: rgb(255, 0, 191);
+    border-style: ridge;
+
+}
+
+
+/*classes*/
+.simple-text{
+    color: skyblue;
+
+}
+.simple-text{
+    color: skyblue;
+
+}
+
+
