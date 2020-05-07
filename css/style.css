@@ -8,52 +8,58 @@ h4{
     font-family: 'Share', cursive;
     color: rgb(255, 0, 191);
     font-size: 50px;
-    margin-left: 100px;
+    text-align: center;
+    
 }
 
 /*IDs*/
 #all{
-    width: 1000;
+    width: 100%;
     margin: auto;
     border-style: solid;
     border-color: aqua;
 }
 #Mfoto{
+    width: 200px;
+    margin-left: auto;
     border-radius: 50%;
-    border-style: ridge;
-    border-color: skyblue;
-    border: 10x;
-    margin-left:  250px;
-    
+    border-style: solid;
+    border-color: aqua;    
 }
 #mainT{
     color: skyblue;
-    margin-left:  190px;
+    text-align: center;
+    font-family: 'Share', cursive;
+    
+    
 }
 #intro{
     border: rgb(255, 0, 191);
-    border-style: ridge;
+    border-style: solid;
+     width: 40%;;
+    margin: auto;
 }
-#topo{
+#cabecalho{
+    width: 50%;
+    margin: auto;
 
 }
 #all{
-    width: 800px;
-    margin: auto;
+    
 }
 #description{
     border: rgb(255, 0, 191);
-    border-style: ridge;
+    border-style: solid;
 
 }
 #habilities{
     border: rgb(255, 0, 191);
-    border-style: ridge;
+    border-style: solid;
 
 }
 #blogS{
     border: rgb(255, 0, 191);
-    border-style: ridge;
+    border-style: solid;
 
 }
 
