@@ -1,47 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Share&display=swap');
-/*tags*/
+
 *{
   border:solid 2px white;
 }
-body{
-    background-color: rgb(0, 0, 0);
+body {
+  background-color: rgb(0, 0, 0);
     
 }
-h4{
-    font-family: 'Share', cursive;
-    color: rgb(255, 0, 191);
+h3 {
+  font-family: 'Share', cursive;
+  color: rgb(255, 0, 191);
 }
-
-/*IDs*/
-#Mfoto{
-    width: 150px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: aqua;    
+#Mfoto {
+  width: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: aqua;
 }
-#mainT{
-    color: skyblue;
-    font-family: 'Share', cursive;
-    
-    
+#mainT {
+  color: skyblue;
+  font-family:'Share', cursive;
 }
-#intro{
+#intro {
   align-items: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 90%;
-    margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
 }
-/*classes*/
-.simple-text{
-    color: skyblue;
-
+#boxes-sector {
+  width: 100%;
 }
-.simple-text{
-    color: skyblue;
+.simple-text {
+  color: skyblue;
 
 }
+.simple-text {
+  color: skyblue;
 
+}
 
+/* "css dedicado ao teste 1" */
+.simple-text.b1 {
+  color: skyblue;
+  text-align: center;
+}
+#boxes-sector.css-test1 .boxesh2h3{
+  color: aqua;
+}
+.css-test1{
+  display: flex;
+  justify-content: space-around;
+}
