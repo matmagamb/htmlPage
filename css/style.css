@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Share&display=swap');
-
+ 
 *{
   border:solid 2px white;
+}
+p{
+  color: aliceblue;
 }
 body {
   background-color: rgb(0, 0, 0);
@@ -47,7 +50,7 @@ h3 {
   color: skyblue;
   text-align: center;
 }
-#boxes-sector.css-test1 .boxesh2h3{
+.content h2, .content h3{
   color: aqua;
 }
 .css-test1{
