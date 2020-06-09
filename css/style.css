@@ -7,9 +7,14 @@ p{
   color: aliceblue;
 }
 body {
-  width: 100%;
+  margin: 0;
+ padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100vh;
   background-color: rgb(0, 0, 0);
-    
 }
 h3 {
   font-family: 'Share', cursive;
@@ -34,9 +39,7 @@ h3 {
   width: 100%;
   margin: auto;
 }
-#boxes-sector {
-  width: 100%;
-}
+
 .simple-text {
   color: skyblue;
 
@@ -47,29 +50,19 @@ h3 {
 }
 
 /* "css dedicado ao teste 1" */
-.boxes-sector{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 100vh;
 
-}
 .simple-text.b1 {
   color: skyblue;
   text-align: center;
 }
-.box-edit h2, .box-edit h3{
-  /* color: aqua; */
-}
 .css-test1{
   position: relative;
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-template-rows: auto;
-  grid-gap: 0 40px;
+  grid-gap: 0px 120px;
+  /* border: red solid 1px; */
   
 }
 .css-test1 .boxes {
@@ -83,8 +76,8 @@ h3 {
 }
 .box-edit{
   position: relative;
-  padding: 20px;
-  border: aqua solid 1px;
+  padding: 50px;
+  
 }
 .box-edit h2{
   position: absolute;
@@ -98,5 +91,5 @@ h3 {
 
 }
 .boxes:hover .box-edit h2 {
-  top: -100px;
+  top: -70px;
 }
