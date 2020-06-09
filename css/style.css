@@ -72,24 +72,31 @@ h3 {
   grid-gap: 0 40px;
   
 }
-.boxes {
+.css-test1 .boxes {
+  position: relative;
   height: 450px;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: aqua solid 1px;
 
 }
 .box-edit{
-  border: aqua solid 1px;
+  position: relative;
   padding: 20px;
+  border: aqua solid 1px;
 }
 .box-edit h2{
-  position: relative;
+  position: absolute;
   top: -30px;
   right: 20px;
   padding: 0;
   margin: 0;
   font-size: 5em;
   color: rgba(255, 255, 255, 0.068);
-  transition: ;
+  transition: 1s;
 
+}
+.boxes:hover .box-edit h2 {
+  top: -100px;
 }
