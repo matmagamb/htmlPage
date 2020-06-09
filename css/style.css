@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Share&display=swap');
  
 *{
-  border:solid 2px white;
+  /* border:solid 2px white; */
 }
 p{
   color: aliceblue;
@@ -50,10 +50,23 @@ h3 {
   color: skyblue;
   text-align: center;
 }
-.content h2, .content h3{
+.box-edit h2, .box-edit h3{
   color: aqua;
 }
 .css-test1{
   display: flex;
   justify-content: space-around;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  padding: 20px;
+  /* border: aqua solid 1px; */
+
+}
+.box-edit{
+  border: aqua solid 1px;
+  padding: 30px;
 }
