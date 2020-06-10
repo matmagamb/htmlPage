@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-width: 100%;
+  min-width: 100vh;
   background-color: rgb(0, 0, 0);
 }
 h3 {
@@ -56,6 +56,7 @@ h3 {
   text-align: center;
 }
 .css-test1{
+  display: inline-block;
   width: 90%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -78,17 +79,51 @@ h3 {
   padding: 50px;
   
 }
-.box-edit h2{
+.boxes .box-edit h2{
   position: absolute;
   top: -30px;
   right: 20px;
   padding: 0;
   margin: 0;
   font-size: 5em;
-  color: rgba(255, 255, 255, 0.068);
+  color: rgba(255, 255, 255, 0.4);
   transition: 1s;
 
 }
 .boxes:hover .box-edit h2 {
   top: -70px;
 }
+.boxes .box-edit h3{
+  margin:  0 0 20px;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+.boxes .box-edit p{
+  margin:  0;
+  padding: 0;
+  font-size: 20px;
+  
+}
+.boxes .box-edit a{
+  position: relative;
+  margin: 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  display: inline-block;
+  color: aqua;
+  transition: 0.5s;
+  transform: translateY(-40px);
+  opacity: 0;
+  visibility: hidden;
+
+}
+.boxes:hover .box-edit a{
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
