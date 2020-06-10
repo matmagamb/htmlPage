@@ -107,7 +107,7 @@ h3 {
 }
 .boxes .box-edit a{
   position: relative;
-  margin: 0;
+  margin-left: 80px;
   padding: 10px 20px;
   text-decoration: none;
   border: 1px solid white;
